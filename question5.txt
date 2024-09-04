@@ -1,0 +1,13 @@
+int c = 0;
+for(int i = 0; i < n; i++) {
+    c += i;
+}
+
+Ans: For the above code,
+
+    The is no special condition here that can change the no.of operations 
+    i.e the loop will run 'n' times 
+    since we are incrementing i's value by only 1 
+    and only stopping till i reaches n.
+
+    so the time complexity will be, O(n).

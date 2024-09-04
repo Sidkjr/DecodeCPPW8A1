@@ -1,0 +1,12 @@
+int c = 0;
+for(int i = 1; i < n; i *= 2) {
+    c++;
+}
+
+Ans: For the above code,
+
+    we are doubling i's value until it reaches n. so if, 
+    n = 8
+    the no.of operations will be 3.
+
+    i.e the time complexity would be O(log n).

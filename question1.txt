@@ -1,0 +1,14 @@
+int c = 0;
+for(int i = n; i > 0; i /= 2) {
+    c++;
+}
+
+
+Ans: For the above code,
+
+    The loop runs for the no.of operations until dividing by 2 at every iteration doesn't make i less than 0,
+    i.e if the value of n = 8.
+
+    the loop will run 3 times.
+
+    So the time complexity is O(log n).

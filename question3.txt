@@ -1,0 +1,14 @@
+int c = 0;
+for(int i = 0; i < n; i += k) {
+    c++;
+}
+
+Ans: For the above code,
+
+    Since k is a constant and can be any value, for eg. 1. The loop will run
+    when ith value reaches n. 
+
+    so if n = 10;
+    and k = 1;
+
+    The time complexity is O(n/k) or simply O(n).
